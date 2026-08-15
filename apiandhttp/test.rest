@@ -1,0 +1,34 @@
+GET https://jsonplaceholder.typicode.com/posts
+
+
+###
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+    "userId": 10,
+    "title": "itm",
+    "body": "nerul"
+}
+
+###
+PATCH https://jsonplaceholder.typicode.com/posts/5
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "id": 5,
+    "title": "HARD TO FIND FRIENDS",
+    "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+}
+
+
+###
+PUT https://jsonplaceholder.typicode.com/posts/5
+Content-Type: application/json
+
+{
+    "userId": 4,
+    "title": "HARD TO FIND FRIENDSSS",
+    "body": "WE LOVE FRIENDS AND WE LOVE FRIENDSHIP"
+}
