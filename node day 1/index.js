@@ -51,3 +51,14 @@ percentage(8,6);
 // add(8,6);
 // sub(4,6);
 // mul(8,6);
+
+
+const express = require('express');
+const app = express();
+
+app.patch('/update', (req, res) => {
+    const data = fs.re
+
+app.listen(3000), () => {
+    console.log("server is running on port 3000")
+}
