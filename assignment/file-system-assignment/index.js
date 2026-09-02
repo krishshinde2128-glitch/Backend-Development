@@ -11,7 +11,7 @@ fs.writeFile('student.txt', initialData, (err) => {
         console.error('Error writing file:', err);
         return;
     }
-    console.log('File created successfully');
+    console.log('task 1 : File created successfully');
 });
 
     // TASK 2: Read File
