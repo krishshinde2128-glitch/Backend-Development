@@ -1,3 +1,4 @@
 node_modules/
 .DS_Storefirebase/data.json
 firebase/data.json
+assignment/firebase1/serviceAccountKey.json
